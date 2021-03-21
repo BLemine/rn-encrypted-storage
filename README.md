@@ -40,5 +40,3 @@ const remoteData=async ()=>{
 
 ### Example
 For example check the folder [Example](./example/index.js)
-
-[React-Native](http://www.github.com/BLemine)
