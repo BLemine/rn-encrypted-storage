@@ -11,7 +11,7 @@ yarn add rn-encrypted-storage
 ### Usage : 
 
 ```js
-import {encyptStorage,decryptStorage} from "rn-encrypted-storage";
+import {encyptStorage,decryptStorage, removeEncryptStorage} from "rn-encrypted-storage";
 
 ...
 
