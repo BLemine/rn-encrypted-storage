@@ -30,9 +30,15 @@ const getData=()=>{
 
 ...
 
+const remoteData=async ()=>{
+  await remoteEncryptStorage("user");
+}
+
 
 ```
 
 
+### Example
+For example check the folder [Example](./example/index.js)
 
 [React-Native](http://www.github.com/BLemine)
