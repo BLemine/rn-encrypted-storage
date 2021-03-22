@@ -3,15 +3,20 @@ A react native package to securely store data locally, it adds to [AsyncStorage]
 
 ### Installation : 
 ```shell
-npm install rn-encrypted-storage
+npm install rn_encrypted_storage
 # or 
-yarn add rn-encrypted-storage
+yarn add rn_encrypted_storage
+
+## Install the peer-dependencies if your npm is between v3 and v7: 
+npm i @react-native-async-storage/async-storage hmacsha1 react-native-device-info react-native-crypto-js
+# or with 
+yarn add @react-native-async-storage/async-storage hmacsha1 react-native-device-info react-native-crypto-js
 ```
 
 ### Usage : 
 
 ```js
-import {encyptStorage,decryptStorage, removeEncryptStorage} from "rn-encrypted-storage";
+import {encyptStorage,decryptStorage, removeEncryptStorage} from "rn_encrypted_storage";
 
 ...
 
@@ -39,4 +44,4 @@ const remoteData=async ()=>{
 
 
 ### Example
-For example check the folder [Example](./example/index.js)
+For example check the folder [Example](https://github.com/BLemine/rn-encrypted-storage/blob/master/example/index.js)

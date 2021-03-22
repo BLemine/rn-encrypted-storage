@@ -4,7 +4,7 @@
     "name": "Lemine"
   },
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "main": "./functions",
   "homepage": "https://github.com/BLemine/rn-encrypted-storage",
   "keywords": [
